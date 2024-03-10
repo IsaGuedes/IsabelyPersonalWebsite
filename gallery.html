@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>isabely's personal website</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/templatemo-style.css" />
+
+</head>
+
+<body>
+  <div class="tm-page-container mx-auto">
+    <header class="tm-header text-center">
+      <h1 class="tm-title text-uppercase">Hobbies</h1>
+      <p class="tm-primary-color"><i>Veja um pouco mais sobre meus passatempos</i></p>
+    </header>
+
+    <div class="tm-section">
+      <nav class="tm-nav">
+        <ul>
+          <li>
+            <a href="index.html"><span class="tm-nav-deco"></span>My</a>
+          </li>
+          <li class="active">
+            <a href="gallery.html"><span class="tm-nav-deco"></span>Hobbies</a>
+          </li>
+          <li>
+            <a href="contact.html"><span class="tm-nav-deco"></span>Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="tm-content-container">
+        <div class="tm-content tm-content-2">
+          <p>
+          Aqui estão alguns Hobbies, coisas que gosto de fazer ativamente e imagens de alguns deles.
+          </p>
+
+          <div class="container-fluid">
+            <div class="row tm-gallery" id="tmGallery">
+              <div class="col-sm-6 tm-gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/volei.hobbie.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2><span>Vôlei de quadra</span></h2>
+                    <p>BUm esporte bom para a saúde e excelente antiestresse.</p>
+                    <a href="img/gallery/volei.hobbie.jpg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-6 tm-gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/livros1.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2><span>Ler</span></h2>
+                    <p>Gosto de aprender cada vez mais, e ler é uma maneira prazerosa de fazer isso.</p>
+                    <a href="img/gallery/livros1.jpg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-6 tm-gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/cozinhar1.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2><span>Cozinhar</span></h2>
+                    <p>Além de relaxante, me faz ter foco, disciplina e paciência.</p>
+                    <a href="img/gallery/cozinhar1.jpg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-6 tm-gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/programa1.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2><span>Programar</span></h2>
+                    <p>Algo que gosto e busco fazer o melhor sempre.</p>
+                    <a href="img/gallery/programa1.jpg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <nav class="aa">
+        <ul class="bb">
+          <li class="ab"><a href="https://github.com/IsaGuedes"><img src="img/github.png" alt="Github"></a></li>
+          <li class="ba"><a href="https://www.linkedin.com/in/isabely-guedes-b42287290"><img src="img/linkedin (1).png" alt="Linkedin"></a></li>
+      </ul>
+    </nav>
+    </footer>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $('.tm-gallery').magnificPopup({
+        delegate: 'a', 
+        type: 'image',
+        gallery: {
+          enabled: true
+        },
+      });
+    });
+  </script>
+
+</body>
+</html>
